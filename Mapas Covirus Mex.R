@@ -1,6 +1,6 @@
 # Coronavirus
-#Edición: 04/04/20
-#Paquetería
+#Edici?n: 04/04/20
+#Paqueter?a
 library(tidyverse)
 library(readxl)
 library(httr)
@@ -23,17 +23,17 @@ CasosCovid19$Region[CasosCovid19$Estado == "COAHUILA"] <- "05"
 CasosCovid19$Region[CasosCovid19$Estado == "COLIMA"] <- "06"
 CasosCovid19$Region[CasosCovid19$Estado == "CHIAPAS"] <- "07"
 CasosCovid19$Region[CasosCovid19$Estado == "CHIHUAHUA"] <- "08"
-CasosCovid19$Region[CasosCovid19$Estado == "CIUDAD DE MÃ???XICO"] <- "09"
+CasosCovid19$Region[CasosCovid19$Estado == "CIUDAD DE M????XICO"] <- "09"
 CasosCovid19$Region[CasosCovid19$Estado == "DURANGO"] <- "10"
 CasosCovid19$Region[CasosCovid19$Estado == "GUANAJUATO"] <- "11"
 CasosCovid19$Region[CasosCovid19$Estado == "GUERRERO"] <- "12"
 CasosCovid19$Region[CasosCovid19$Estado == "HIDALGO"] <- "13"
 CasosCovid19$Region[CasosCovid19$Estado == "JALISCO"] <- "14"
-CasosCovid19$Region[CasosCovid19$Estado == "MÃ???XICO"] <- "15"
+CasosCovid19$Region[CasosCovid19$Estado == "M????XICO"] <- "15"
 CasosCovid19$Region[CasosCovid19$Estado == "MICHOACÃN"] <- "16"
 CasosCovid19$Region[CasosCovid19$Estado == "MORELOS"] <- "17"
 CasosCovid19$Region[CasosCovid19$Estado == "NAYARIT"] <- "18"
-CasosCovid19$Region[CasosCovid19$Estado == "NUEVO LEÃ"N"] <- "19"
+CasosCovid19$Region[CasosCovid19$Estado == "NUEVO LEON"] <- "19"
 CasosCovid19$Region[CasosCovid19$Estado == "OAXACA"] <- "20"
 CasosCovid19$Region[CasosCovid19$Estado == "PUEBLA"] <- "21"
 CasosCovid19$Region[CasosCovid19$Estado == "QUERETARO"] <- "22"
